@@ -146,16 +146,47 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .myContact {
+    font-size: 14px; 
+    
+  }
+  #myPersonalInfo h2 {
+    font-size: 18px;
+    font-weight: 500px;
+  }
+  .static-resume-header h1 {
+    font-size: 22px; 
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 500px) {
+
   .myContact {
     font-size: 10px; 
     
   }
   #myPersonalInfo h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500px;
   }
   .static-resume-header h1 {
-    font-size: 25px; 
+    font-size: 20px; 
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 370px) {
+
+  .myContact {
+    font-size: 9px; 
+    
+  }
+  #myPersonalInfo h2 {
+    font-size: 15px;
+    font-weight: 500px;
+  }
+  .static-resume-header h1 {
+    font-size: 20px; 
     font-weight: 700;
   }
 }
